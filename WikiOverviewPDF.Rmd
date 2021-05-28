@@ -1,0 +1,559 @@
+---
+title: "Wiki: Overview and student prompts"
+author: "Christina Bjorndahl"
+date: "2/27/2021"
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    number_sections: true
+  
+---
+---
+title: "Using a class wiki to facilitate community and linguistic inclusivity"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+author: "Christina Bjorndahl"
+date: "2021.01.09"
+output:
+  html_document:
+    toc: yes
+    number_sections: yes
+    section_depth: 2
+    toc_float: yes
+    theme: sandstone
+    highlight: tango
+---
+# Pedagogical challenge
+
+
+The wiki was designed with the following pedagogical goals in mind: First, motivated by the shift to remote teaching due to Covid-19, I wanted to provide students with a means for **asynchronous engagement** and **collaborative learning**.  Second, I wanted to find a way to **incorporate issues related to justice, equity, diversity, and inclusion (JEDI)**, without sacrificing core content.
+
+Asynchronous engagement:
+: Implemented since students can contribute to the wiki at any time; articles can be referred to in lecture, linking the synchronous and asynchronous components of the class.
+
+Collaborative learning: 
+: Implemented by having students contribute both articles and expansions on articles that their peers contribute.
+
+Incorporating JEDI issues:
+: Implemented by creating wiki categories specifically targetting such issues, deemed essential, and having privileged status over other categories.
+
+**Wiki categories:**
+
+1. Typology of phonetic contrasts
+2. Indigenous languages of the Americas (essential)
+3. Phonological phenomena in spoken languages
+4. Language of the Nacirema (essential)
+5. Morphosyntactic diversity (essential)
+6. Linguistic discrimination in the wild (essential)
+7. Endangered languages
+8. Sign languages
+9. Varia
+
+Additionally, there are two "ELI5" categories, based on Reddit's "Explain it like I'm 5".
+
+
+# Overview and structure of the wiki {.tabset}
+
+
+## Wiki structure
+
+Students contribute to the wiki in various ways, with each kind of contribution was worth a certain number of WikiPoints (WP).  The primary contributions, which are obligatory, are **articles** and **expansions**.  The expansions are particularly important for addressing the pedagogical goal of collaborative learning, since it ensures that students have to engage with their peers' contributions.
+
+The following is the information given to students:
+
+| Type        | WP       | Description  |
+|-------------|:--------|:------------------------------------------------------------|
+| Article                        | 15 WP      | An article should **summarise or explain a topic, in your own words** and using correct terminology. Articles must be submitted before the deadline to be counted.                                                                                                                                                                                                             |
+| Expansion                      | 10 WP      | An expansion is **a substantial elaboration on another student’s article**, either by providing a  different kind of explanation, a new example (with an explanation), or a different perspective. For categories with article deadlines, elaborations can be submitted up to one week past the article deadline, but no later than the last day of class.                              |
+| Tidbit                         | 2 WP       | A tidbit is a **brief comment** on an article or expansion (e.g., posting a relevant link with  little to no explanation), or a contribution to a discussion.  There are no deadlines during  the semester for this type of contribution.  These are not graded for content, but they should  still be substantive (i.e., writing “Cool!” on a post won’t get  any points). |
+| ELI5 Question: Article request | 5 WP       | There are two ELI5 categories, where students can ask questions about content in either Phonetics & Phonology, or Morphology & Syntax.                                                                                                                                                                                                                           |
+| ELI5 Answer: Article           | 10 WP      | "ELI5" comes from Reddit, and it means, "Explain it like I'm 5".  You may respond to a peer's ELI5 question, or respond to your own, but your response should be in terms simple enough that a 5 year old could understand the response.  This is a great way to make sure you understand the material!                                                                    |
+
+There are no partial points, as discussed further in [Assessment of contributions](#assessments).
+
+## Assessment of contributions{#assessments}
+
+Every contribution is assessed as complete/incomplete based on the following criteria:
+
+1. Is it correct?
+2. Is it complete?
+3. Is it relevant?
+4. Is it yours?
+5. Is it appropriate?
+6. For ELI5 contributions: Is it simple enough?
+
+Contributions that fails on any of the criteria are flagged by someone from the teaching team, explaining what needs to be fixed.  Students have one week to fix the contribution, and once it meets all criteria, receive full credit (i.e., all the points possible for that kind of contribution).
+
+Contributions that are inappropriate and violate community guidelines will be removed entirely; depending on the severity of the infraction, further disciplinary actions may be taken. 
+
+### Description given to students re: assessment {-}
+
+
+**Is it correct?**
+Your contribution must be factually correct, and it must use correct terminology that we have learned in class (with the exception of the ELI5 articles, which must be simple and eschew special terminology).  It’s okay to make a mistake, since we’ll just ask you to fix it! If you see a mistake in a classmate’s post, you’re welcome to point it out to them, but you should do so kindly.
+
+**Is it complete? Is it relevant?**
+Every category has a set of instructions that explains the kind of article you are expected to write for that category.  Some categories are more open-ended than others.  The articles are not expected to be long, but I am purposely not providing word minimums/maximums and strict dictums for the scope of the articles.  Partly this is because I want you to build your own intuition about what kind of contribution is complete and relevant, but more importantly, I want you to take control of the wiki.  That is, the guidelines provided are minimal, and you should feel free to push beyond those guidelines as you see fit.
+
+
+**Is it yours?**
+You are welcome and encouraged to use resources you find on the internet to help you contribute to the wiki.  However, you must appropriately cite the sources you find, and paraphrase them so that they are your own work.  If we find that your contribution is insufficiently yours, then you will be asked to fix it; if this becomes a pattern, then we will have a conversation about how you can contribute authentically to the wiki.  If this becomes a pattern that you are unwilling to address, then you will receive a grade of 0 for the wiki, and further disciplinary actions may be taken.
+
+
+**Is it appropriate?**
+
+Your contributions to the wiki must be appropriate, and adhere to the community guidelines.  
+
+There will be zero tolerance for language that discriminates on the basis of race, ethnicity, religion, gender, sexuality, disability, religious beliefs, language, or any other aspect of a person’s identity.  Furthermore, there will be zero tolerance for language that is abusive towards a person, or makes ad hominem attacks.  Wiki contributions that use language that is demeaning or disrespectful to anyone will be removed, and further disciplinary actions may be taken if warranted.
+
+*Discussing language examples that are problematic*
+
+Because this is a linguistics class, and because we are going to explicitly tackle linguistic bias, oppression, stigma, stereotyping, etc., there will be wiki categories that include examples of language that are offensive.  For example, in the wiki category Linguistic discrimination in the wild, you are asked to find an example of linguistic discrimination on the internet, and so in this category, the examples of problematic language are generally going to be obvious, and explicitly highlighted.
+
+In other cases, the use of problematic language might be much more subtle, and we (that includes me) may find that we’ve used problematic language, or that we’ve framed a linguistic phenomenon in ways that are offensive or marginalizing to certain groups of people.  This is, as far as I’m concerned, unavoidable.  It is tempting in these cases to either refrain from engaging at all, or to disengage from the topic as soon as it becomes uncomfortable, but I ask that you join me in being willing to “learn in public”.  That is, let’s recognise that we are all learning, and that the point is not to be right, but to grow and help others grow.
+
+**ELI5: Is it simple enough?**
+ELI5 posts are to be written using very simple language that a child could understand.  This is not the place to demonstrate your command of terminology!  If your post is too technical, we will ask you to simplify it.
+
+</details>
+
+## Specifications grading
+The wiki is worth 15% of the final grade, and is graded using a version of specifications grading (Nilson 2015): students are able to choose whether they earn all 15% for **full engagement** with the wiki, or opt to earn either 12% for **partial engagement**, or 10% for **minimal engagement**.  The levels of engagement are determined by the number of **WikiPoints** that they accumulated, as determined by the following table:
+
+
+
+|                    | Full                    | Partial                 | Minimal                 |
+|--------------------|-------------------------|-------------------------|-------------------------|
+| Articles*           | 3 essential + 1 = 60 WP | 2 essential + 1 = 45 WP | 1 essential + 1 = 30 WP |
+| Expansions*         | 3 = 30 WP               | 2 = 20 WP               | 1 = 10 WP               |
+| Additional content | 30 WP                   | 20 WP                   | 10 WP                   |
+| Total WikiPoints   | 120 WP                  | 85 WP                   | 50 WP                   |
+
+
+
+Additional content: Once the appropriate number and types of articles and expansions are complete, all other contributions are counted towards additional content. 
+
+<details> 
+<summary> Example </summary>
+Suppose a student opts for full engagement.  Then they have to contribute:
+
+1. three essential category articles
+2. one additional category article (can be essential if they wish)
+3. three expansions
+4. additional 30 WP worth of content, which could be accumulated in any of the following forms:
+    - 15 tidbits
+    - 3 additional expansions
+    - 2 additional articles
+    - 1 additional article, 1 additional expansion, and 1 ELI5 question
+    - etc.
+</details>
+
+### Description given to students re: details of implementation {-}
+
+Once your articles and elaborations are sufficient for the level of engagement that you have selected, anything else counts towards “additional content”, whether articles, elaborations, comments, or questions.
+
+In order to count as an article contribution, all articles must be in separate categories; articles added to categories you’ve already contributed to will count towards “Additional Content”.  For example, suppose you’ve chosen the full level of engagement, and contributed 3 essential category articles, one of which was in the Morphosyntactic diversity category.  You may contribute a second article to this category (by the deadline), but it will only count as additional content, and cannot be used as your extra article.
+
+Only one expansion for a given category can count towards your expansion; additional expansions will count towards additional content. To continue with the example above, you could contribute both an article and an expansion to the Morphosyntactic diversity example, but any *additional* expansions to this category would count toward your additional content, not towards your expansions.
+
+You may contribute an expansion to an article that has already been expanded upon.
+
+The three levels of engagement are designed so that you can choose your level of engagement (and therefore your grade) for the wiki component of the course.  As you’ll see, there is also a lot of variety in the topics you can contribute to.  Assuming most of the class opts to engage with the wiki at least minimally, this should ensure a vibrant wiki that gets populated throughout the semester.  
+
+An important part of the wiki is that it gets populated throughout the semester, and so deadlines for the wiki will be strictly enforced.  
+
+For example, suppose you decide at the beginning of the semester that you’ll be happy with getting 12/15 for the wiki component of the course (i.e., partial engagement), and you decide that you are going to contribute to essential topic categories 3 (Morphosyntactic diversity) and 4 (Linguistic discrimination in the wild).  However, November 14 (the due date for the third essential topic category) comes and goes, and you haven’t submitted an article yet.  As a result, you are only eligible for the minimal engagement level, and can get (at most) 10/15 for the wiki component of the course.  To avoid this kind of disappointment, I suggest that you set your sights on full engagement, and get yourself accustomed to contributing to the wiki early in the semester.
+
+That said, just in case, there is one further level of possible “engagement”, which I call the “&#%! The wiki!!” level.  I hope that no one uses this level, but I’m also a realist, so: if you acquire at least 50 points by December 11, in whatever configuration you can, you can get 7/15 for your wiki grade.
+
+</details>
+
+## Prompt for students
+
+The following text is what was distributed to students on Canvas to explain the wiki.
+
+### Overview
+My vision for the wiki is that it will be a source of community-based knowledge, where you will have an opportunity to contribute information, expanding upon and consolidating the material taught in class in such a way that the wiki represents what is interesting and relevant to you.  In order to make that vision work, I am relying on you to engage with the wiki throughout the semester, not just adding articles of your own, but elaborating and commenting on the articles of your peers.
+
+Contributing to the wiki will earn you a number of WikiPoints (WP).  The wiki portion of this course is worth 15% of your final grade, and is determined by the points you accumulate, together with how you accumulate them, as described below.
+
+Here are some key points about the wiki structure before we get into the weeds:
+
+- The wiki is a place to learn.  With the exception of contributions deemed inappropriate and that go against our community guidelines, it’s okay to be wrong, misguided, incomplete, etc.: you get a chance to fix your contribution, and still earn full credit.
+- Contributions are graded as complete/incomplete.  If your article is deemed incomplete, you’ll have 1 week to fix it from the moment the TA flags it.
+- The wiki provides us with an opportunity for a collaborative learning space, and so you will earn credit by elaborating and commenting on your peers’ contributions.
+- You get to choose what level of engagement you want, thereby determining your grade.  The levels of engagement are detailed below, but briefly: 
+  - If you decide to contribute fully, as described below, then you will get all 100% on the wiki portion (i.e., you will earn 15/15 for the wiki portion of your final grade).
+  - If you decide to contribute partially, then you will get 80% on the wiki portion (i.e., you will earn 12/15 for the wiki portion of your final grade).
+  - If you decide to contribute minimally, then you will get 67% on the wiki portion (i.e., you will earn 10/15 for the wiki portion of your final grade).
+- There are a variety of categories to contribute to, such as *Typology of phonetic contrasts*, *Linguistic discrimination in the wild*, etc. You do not have to contribute to all categories, but some categories are classified as essential.
+  - Essential categories reflect those components of the course that are both important for your linguistic training and lend themselves well to contributions from everyone in the class (i.e., there’s a wealth of material out there, and it’s easy to generate new examples). 
+  - Depending on your chosen level of engagement, you will contribute to either 1, 2, or 3 of the essential categories.
+- Some categories have deadlines during the semester because the articles are relevant when we are working on that exact topic.  Other categories have a deadline on the last day of class (December 11, 2020), because they are relevant throughout the semester.  That being said, it will be difficult to contribute to some topics until we get far enough along in the material.
+
+### Usernames
+Every student will create their own username, which will be mapped to your Andrew ID on Canvas.  Your wiki user ID must be your first name (what I would call you if I were to call on you in class) and last initial. It doesn’t have to be your legal name; e.g., if your name is Jennifer Smith, but prefer to be called Jenny, then your username can be JennyS, or jenny_s, or jenny_s_iscool, or whatever, as long as it starts with your name and first initial.
+
+Please register for your username here (Links to an external site.).
+
+### A note on anonymity
+Anonymous articles are, in general, not permitted on the wiki.  I know this is scary for many of you!  There are a variety of reasons for this:
+
+- Learning how to be okay with being wrong is probably one of the best things you can learn in life. 
+- People are kinder and more understanding when they and the people they are talking to are not anonymous.
+- It’s pretty hard to build a community when you don’t know the people in the community.
+
+Some of the topics we will talk about are difficult ones, dealing with how language is used to abuse and oppress people (both historically and currently).  In order to address these topics constructively, we need to own our perspectives, our mistakes, and our growth, and we need to be charitable to others, allowing them the space to learn.  I believe that the best way to foster this is in a community of people, not in a group of anonymous IDs.
+
+That said, if you feel that you wish to add something but, for whatever reason, do not feel safe adding it non-anonymously, then there are two ways to contribute:
+
+1. Anonymous to your peers, but not to the teaching team:  If you would still like to receive credit for your contribution, but do not feel comfortable attaching your name to an article, then you may send me or one of the TAs an email, and we will article it to the wiki under our name, indicating that it came from a student who wishes to remain anonymous.  You must provide a brief explanation to us of why you wish to remain anonymous to your peers (which we will not share).
+2. Anonymous to everyone: If you would like to comment or contribute something but do not wish to be identified at all (and therefore will not get credit for your contribution), then you may submit to the anonymous survey on Canvas.  While I will not know who you are, I can provide “feedback” on the survey (so can respond to your comments), and will post the contribution if you request it and it doesn’t violate the community guidelines.
+
+
+***
+
+# Wiki for an introductory linguistics class
+
+This section details the wiki categories that were provided to students in the introductory linguistics class at Carnegie Mellon University, 80-180 *Nature of Language*.  
+
+>**How to read this section:**
+For each category, I provide a brief summary and the learning objectives for that category (2.x.1), followed by the instructions provided to students (2.x.2). 
+
+<!-- as well as some anonymised sample student submissions (2.x.3). -->
+
+## Practice category {.tabset}
+
+### Overview
+A practice category was used in the first week in order to:
+
+- Ensure the wiki was working for all students, and that all students knew how to post to the wiki
+- Get a sense of student interests
+- Have students get to know other students and their interests
+
+### Category description
+**Practice run! Something I’ve always wondered about language...**
+As a practice run, we ask that you contribute an article to this category by September 5, and post a comment on someone else’s article by September 6. These don’t have to be long, as the main goal is to just make sure that everybody knows how to use the system. The contributions will be assessed as complete/incomplete, but there are no WikiPoints available for this category. See the instructions for how to set up an account here, and how to post here.
+
+What to post? Is there something about language you’ve always wondered about? Tell us! Write a brief description of something that you’re interested in learning about, or something that puzzles you about language. Then, look at the articles of your fellow classmates, and comment on at least one “article”. Make connections!
+</details>
+
+<!-- ### Submissions -->
+
+## Typology of phonetic contrasts {.tabset}
+
+### Overview
+
+**Learning objectives:**
+
+- Become acquainted with and navigate linguistic databases such as [WALS](https://wals.info/) and [PHOIBLE](https://phoible.org/)
+- Practice phonetic terminology taught in class
+
+In this category, students are introduced to linguistic typology while they are learning about articulatory phonetics.  Since the content taught in lecture focusses on the sounds of English, this category provides students the opportunity to compare English with other languages with respect to certain typological parameters.
+
+
+### Category description
+In linguistics, a **typology** is a cross-linguistic description and classification of languages according to a particular linguistic feature. For example, we might ask whether a language places the adjective before the noun, as in English (black cat) or after the noun, as in French (*le chat noir*, literally, 'the cat black'). In this example, we would say that the linguistic **feature** is “order of nouns and adjectives”, with two **values**: (1) noun-adjective and (2) adjective-noun.
+
+To contribute an article to this wiki category, you are asked to think about typology in terms of the phonetic contrasts that languages make use of. An article in this category compares two languages with different values of a particular typological feature; the languages are English and another language of your choosing. The features that you are asked to consider are listed below.
+
+You will use two resources: the World Atlas of Linguistic Structures Online ([WALS](https://wals.info/)), and [PHOIBLE](https://phoible.org/).  Both sites are databases of languages: WALS includes information for a variety of linguistic features, while PHOIBLE is dedicated to the phonetic inventories of languages.
+
+#### Possible Typological Features {-}
+- [Consonant inventories](https://wals.info/feature/1A#2/19.3/152.8)
+- [Vowel inventories](https://wals.info/feature/2A#2/19.3/152.8)
+- [The velar nasal](https://wals.info/feature/9A#2/20.0/151.7)
+- [Front rounded vowels](https://wals.info/feature/11A#2/22.6/152.8)
+- [Tone systems](https://wals.info/feature/13A#2/19.3/152.8)
+- [Absence of common consonants](https://wals.info/feature/18A#4/47.72/254.67)
+- [Presence of uncommon consonants](https://wals.info/feature/19A#2/19.5/152.8)
+
+#### Instructions {-}
+
+1. Choose one of the possible typological features.
+2. Find English on the map (hint, you won't find it in North America!), and determine what value it has for the given feature. E.g., under "tone system", English has the value "no tones". Select a language that has a different value for the feature you’ve selected than English does. *Note: Ideally, you should choose a typological feature and language combination that hasn’t already been selected, so please take a look at the articles that your peers have posted. Of course, if two students happen to post the same feature and language combination (say, because both were working on the article at the same time), then that’s okay.*
+3. Look up the language on PHOIBLE, and ensure that the information on PHOIBLE corresponds to the feature value that is entered in WALS.
+4. Write a short entry that includes:
+- A brief explanation of the category you chose, and what the different feature values represent, in your own words.
+- How English and the language you selected differ with respect to the feature in question.
+- A question or commentary about this difference that you find interesting (open ended).
+
+Your article title should have the following form: *Feature: Comparing English and Language*. For example: *The velar nasal: Comparing English and Thai*.
+
+#### Expansions {-}
+
+An expansion of one of these articles can take many forms. Here are a few ideas, but feel free to select your own!
+
+- Find an academic article that describes how native English speakers learning Language acquire the feature value, or how native speakers of Language acquire the feature value of English. To use the example I included above, I could look to see whether there are any studies that look at English pronunciation of Thai words with an initial velar nasal. Provide a brief summary of the relevant parts of the article.
+- If you speak Language, then you could write a short tutorial that teaches speakers of either English how to pronounce words with the relevant feature difference; note that you might want to include short video or audio recordings if you do this.
+- Do any of the feature values present a special challenge to speech recognition or synthesis? Try to find a discussion of this online, and summarise it.
+*Note: You do not have to understand academic articles perfectly, and your summary does not have to cover all aspects of it. You need only summarise the parts that are relevant to the expansion you are providing.*
+
+<!-- ### Student Submissions -->
+
+## Indigenous languages of the Americas (essential) {.tabset}
+
+### Overview
+**Learning objectives:**
+
+- Learn about the linguistic diversity of the Americas
+- Identify Indigenous languages of the Americas using https://native-land.ca/
+- Compare Indigenous and non-Indigenous depictions of Indigenous languages
+- Learn about language revitalisation and reclamation initiatives
+
+Indigenous languages are often featured in linguistics classes and texts as data, thereby decontextualising them from the people who speak/spoke the language.  This wiki category is an attempt to invert the standard narrative, asking students to *first* learn about the people and the culture associated with a particular place, and only after this learn a linguistic fact about the language in question.
+
+In the description for the category, I also aim to model the process of learning about decolonising linguistics as a discipline, by describing my own growth on the subject, and contextualising the document itself by its author and influences.  In that spirit, feedback received on the document will not only be incorporated, but also shared freely with future students.
+
+### Category description
+Before European colonialism, there were hundreds (if not thousands) of languages in use in the land now known as the Americas; no one knows the exact number. During the colonial period and the subsequent establishment of current nation states such as Canada and the United States, European settlers and governments seized Indigenous land, killed and displaced Indigenous people, and prohibited the use of Indigenous languages. Some of these actions date back to the early years of first contact, but many of the official policies that harm Indigenous people, cultures, and languages have continued until recently, and some continue today. For example, the governments of both the United States and Canada used residential schools as a tool for the eradication of the languages and cultures of Indigenous people. To give you a sense of just how recent this history is, the last residential school in the US closed in the 1970s; in Canada, the last residential school closed in 1996.
+
+As a result of this history, the use of Indigenous languages declined dramatically. An internet search for Indigenous languages of the Americas will turn up a variety of sources that discuss language endangerment and extinction. Indeed, many Indigenous languages are severely threatened, with only a handful of people living who use the language, while others have no users at all, and are said to be extinct. For many languages, however, this is only half the story, as many sources fail to mention that there are reclamation efforts underway.
+
+Why is this important? There are several reasons. One of the biggest problems is that typical representations of Indigenous people is that they *were* and not that they *are*: Talking about entire peoples and cultures as though they existed only in the past is a way of erasing them in the present, thereby presenting them as some kind of historic relic that non-Indigenous people, and in particular, those who hold positions of institutional power, don’t have to grapple with today. But this is false. Indigenous people exist, their cultures exist, and their languages, though endangered, exist.
+
+Another problem is that many of the sources are not written by Indigenous people themselves. Within linguistics and other related fields, Indigenous languages have often been treated as an object of study by non-Indigenous people, and work by Indigenous scholars has often not been regarded as scholarship.
+
+At this point, I think it’s important to contextualise this document. It was written by me, Dr. Christina Bjorndahl. I claim no Indigenous ancestry, and in fact I have only recently begun to learn about the problems with the representation of Indigenous people in linguistics. Indeed, it was only a couple of semesters ago that I presented information about Indigenous languages by discussing endangerment and extinction, citing non-Indigenous sources, and making only passing reference to revitalisation and reclamation efforts.
+
+So in many ways I’m still new at this. Over the last year, I’ve had the enormous fortune of working with Dr. Wesley Leonard, a linguist of Miami (Myaamia) ancestry. Indeed, everything I’ve written to this point is based on my interpretation of conversations we’ve had, and papers that he and other Indigenous linguists have written. Of course, any failings in the preceding summary are strictly my own. We will be reading some of Dr. Leonard’s work this semester.
+
+This year I’m using the wiki to try a new way of incorporating Indigenous languages into 80-180 in a way that I hope will be more respectful. There are two parts to this. In part 1 (one of the essential categories), you are asked to find information about an Indigenous language, using Indigenous sources as much as possible; details are below. In part 2, you are asked to discuss some aspect of the same language using the terms and concepts that we have discussed in class.
+
+#### Part 1 (essential) {-}
+To do this exercise, you are asked to select a place in North or South America that you have some connection to, broadly construed. For example, the location you choose could be the place you’re from, or a place you visited as a child, but it could also be a place you remember from a movie, or somewhere you’ve always wanted to visit. You will have to select a place that no one else in the class has selected, so you should think of several options!
+
+Go to https://native-land.ca/. Enter the place name in the search bar, and the map will then zoom in to your selected location, and will tell you the name of the people who were the original stewards of the land. Then go to this map, where you can add the place. This allows us to build a map of the Indigenous languages that NoL students are investigating this term. This is also where you can see if the place you chose has already been chosen; if so, please choose a different place.
+
+The language you will be investigating is the language that was spoken by the original people of that land. If there are multiple tribes listed, then choose one; it is okay if you choose a tribe that someone else has chosen, provided that you write your own summary.
+
+Follow the links provided in the results section of native-land.ca to learn more about the people and language. Most of the links for more information will take you to websites that are run by the Indigenous tribe in question. Use only information that you can get from Indigenous-run sites. If you cannot obtain information from an Indigenous site, then say that, but do not go elsewhere for information.
+
+For the wiki, write a short summary that discusses the following: Why did you choose that place? Who were the traditional stewards of the land? What is the name of the tribe? Are there multiple names? Are some names more preferred than others? Write an IPA transcription of the name. What treaties relate to the land in question? What is the status of the language? Are there revitalization or reclamation efforts underway? Are there native speakers of the language? Are there pedagogical resources to learn the language? Is it in use by people today, and how is it used? In daily life? Ceremonially? Administratively? Is there any data about how many speakers there are?
+
+After you’ve written your summary, do a search for the language on the internet at large, and select a site that is not Indigenous-run, such as Wikipedia. If you were to write a summary of the language based only on non-Indigenous sources, how would it be different? Would the facts change? The presentation change? What differences can you spot in the way that the language is described or in the way that examples are presented? Be sure to include links to the sites that you use in your summary and discussion.
+
+#### Part 2 {-}
+For part 2, you are asked to describe some aspect of the phonology, morphology, or syntax of the language, using the terminology, transcription, and concepts that you have learned in class. You will be adding this as an expansion to your own article, but you will receive 15 WP, not 10 WP (i.e., it will be treated as a new article). Your summary cannot be a description of the sound inventory, unless it also includes a description of a phonological process. You must describe the phenomenon in prose and include some examples.
+
+#### Expansions {-}
+Expansions for either of these sections are open-ended but should be done thoughtfully. Ideas for part 1 include: adding additional historical information; discussing the language reclamation efforts in more depth; finding instances of literature or artwork of the tribe, etc. You do not have to add more information. You can also write a reflection of the representation of a particular Indigenous language; were you taught about the language or the tribe in school? How does the information presented here differ from what you were taught? For part 2, you can find additional language examples, particularly of texts that exemplify the phenomenon, or if the example is well-known in the linguistics literature, summarise the instances that it has been cited, and discuss whether these works also cite Indigenous scholars, or whether the example has been used only as an object of inquiry.
+
+<!-- ### Student Submissions -->
+
+## Phonological phenomena in spoken languages {.tabset}
+
+### Overview
+
+**Learning objectives:**
+
+- Consolidate terminology introduced in class re: phonological phenomena
+- Describe phonological phenomena in articulatory phonetic terms
+- Gain an appreciation for cross-linguistic similarities in phonological phenomena
+
+In this category, students are asked to search for phonological phenomena in other languages, describe it, and explain what is happening articulatorily.  Generating an appropriate wiki entry therefore requires students to understand the phenomenon in question, as well as link the symbolic description in IPA symbols to an accurate articulatory description.
+
+### Category description
+When first encountering different languages, it often appears as though languages differ in unbounded and unpredictable ways. For example, consonant inventories can range from a size of 6 to 122; some languages encode meaning differences with tones, while others do not; some restrict syllables to just a consonant and following vowel, while others allow multiple consonants in a row. Phonological processes seem to only add to the ways that languages can differ: vowel harmony, nasal assimilation, palatalization, epenthesis, deletion, etc.
+
+And all this is true! There is an enormous amount of variability in the sounds and sound systems of languages. Nevertheless, all humans are equipped with the same vocal tract apparatus, and it turns out that many of the phonological phenomena of spoken languages crop up again and again. For example, homorganic nasal assimilation is a very common process, cross-linguistically. That is, if a language has consonant clusters, then it is very likely that a sequence of a nasal and following stop will be realized with the same place of articulation.
+
+The goal of this wiki category is for us to build an inventory of examples of phonological phenomena across languages, where a phenomenon is either a phonotactic generalization or a phonological process. You cannot include types of contrast here (e.g. “Language X uses tone for lexical contrast”) as these are covered in the category *Typology of phonetic contrasts*. You may add an example of either a phonotactic restriction, or a phonological process, but you must include 3-5 examples from the language in question to illustrate the phenomenon. You must name the phenomenon, and identify the language family of the language you’ve chosen; Ethnologue is a good source, but you can only access a limited number of page views, so you’re welcome to look up the language on WALS or PHOIBLE. Here’s an example of the beginning of an entry; particularly for non-English languages, you will want to offset the examples so they are not inline with the paragraph. Finally, you must describe the articulatory configuration that underlies the process.
+
+It is my hope that as entries are added, you can begin to see patterns of the kinds of phenomena that surface again and again.
+
+**Example: English voicing assimilation**
+
+In English (Indo-European), certain morphemes assimilate in voicing to a preceding consonant, as in the plural morpheme /z/ (written as `<s>` and `<es>`) and the 3rd person possessive /z/ (written as `<'s>`). Thus we have the words `<cats>` and `<cat's>` both pronounced as [kæts], since /t/ is voiceless; `<dogs>` and `<dog's>` are both pronounced as [dɔgz], since /d/ is voiced; and `<hams>` and `<ham's>` both pronounced as [hæmz], since /m/ is voiced. There is a set of words that follows the opposite pattern, where the final consonant of the root word assimilates to the voicing of the plural morpheme, so that the plural of `<leaf>` is `<leaves>` and is pronounced as [livz], and not [lifs] (except in the name of the sport team, the "Maple Leafs").
+
+During voicing assimilation, the configuration of the vocal folds stays the same over a sequence of consonants. In the [ts] sequence of a word like [kæts], the vocal folds are abducted from the beginning of the closure of [t], until the end of the word, so that the vocal folds are not vibrating. In contrast, in a [dz] sequence of a word like [dɔgz], the vocal folds are adducted and vibrate through the entire sequence
+
+#### Expansions {-}
+Expansions in this section can be of several types. Some examples:
+
+- You can provide audio/video examples of a process in a language that you speak, with a discussion regarding any patterns you observe (e.g., Do all speakers pronounce the words this way? Do you agree with this description of the pronunciation of words in your language?)
+- You can determine how the application of a particular phonological process would affect loanwords from other languages.
+- You can find an academic article that discusses the articulation or acoustics of one of the processes, and summarise the key finding as it relates to the phonological process in question.
+
+<!-- ### Student Submissions -->
+
+## Language of the Nacirema (essential) {.tabset}
+
+### Overview
+**Learning objectives:**
+
+- Reflect on how polysemy is often given disproportionate weight in popular representations of language with respect to inferences about culture
+- Reflect on exoticization of foreign languages and cultures
+
+This category is motivated both by Horace Miner's influential "Body Ritual Among the Nacirema" and the frequent misinterpretation of cross-linguistic differences in the popular media (and, indeed, by academics in other fields).  It is intended to encourage students to critically reflect on the depiction of other cultures through cross-linguistic differences, by having them engage in the exoticisation of English and American (or "Nacireman") culture.
+
+### Category description
+In his 1956 paper titled [“Body Ritual Among the Nacirema”](https://www.sfu.ca/~palys/Miner-1956-BodyRitualAmongTheNacirema.pdf), Horace Miner describes the unique and exotic rituals that the Nacirema people perform. “Nacirema” is “American” spelled backwards, and the paper serves to illustrate problems in the ethnographic representation of people and cultures. The main point of the article is to show that any culture can be made to seem peculiar from the outside, challenging us to think about how we represent ourselves vs. others.
+
+If you google “Nacirema”, you will find various other articles that also play on this idea. Of particular relevance to linguistics is an article by Willard Walker in 1969, called “The Retention of Folk Linguistic Concepts and the ti’yčɨr Caste in Contemporary Nacireman Culture”, which highlights the inconsistencies between the phonological system of English and the way it is taught with respect to its orthography.
+
+While these articles may seem exaggerated, the presentation of other cultures and languages as exotic continues today, particularly with respect to languages. One of the most common tropes in the media is a story that observes that a particular language has “no word for X”, or that “X and Y are represented by the same word”, and from this observation, concludes that the people who use that language have a fundamentally different worldview.
+
+In this wiki category you are asked to write two paragraphs about the Nacirema. In the first paragraph, you are to choose a common English word and write a paragraph that illustrates its polysemy. As an example, consider this [paragraph](http://itre.cis.upenn.edu/~myl/languagelog/archives/000128.html), written by John McWhorter, illustrating the polysemy of the word STAND:
+
+>I know we are not supposed to "go there." But then, let's take STAND. You STAND on a corner, you STAND rather than sit, you STAND up. One can STAND pat -- even in an argument. That is, one can STAND up for a thesis, the point can STAND to reason, one can STAND firm on it, STAND down dissenters, and when unrefuted, the point STANDs, although the debate may also end in a STAND-off. We extend that meaning to say that something cannot STAND, and when we are not inclined to let something STAND we cannot STAND it. One person STANDs in for another; a symbol can STAND for a concept. Something noticeable STANDs out. And then when we probe deeper, STAND even lurks sheltered in longer words and seasons their meanings -- we underSTAND an idea, we withSTAND a threat. Then STAND even crosses the line between verb and noun, becoming what we might call a guiding spirit pervading the language. A persistent person may finally make their last STAND. People sell food at STANDs. To performers especially in the old days, a stay in one town was a STAND. You watch a ball game in the STANDs. And then one even hears of STANDs of trees. And STAND tucks itself into other nouns as well -- one may have a unique bodily STANCE, or a STANCE upon an issue of the day.
+
+You may select your own common word, or you may select from one of the following: table, walk, bank, take, chair, dog, cat. If you need help thinking of expressions, you can ask Google to define the word for you; if you click on “Translations, word origin, and more definitions”, there is a section at the bottom that includes idiomatic phrases that use the word.
+
+In the second paragraph, you are asked to imagine yourself as a journalist writing about the Nacirema, and, based on your paragraph, write a short description of their belief system and culture, given the polysemy of the word you selected.
+
+Please title your article, “Philosophy lessons from WORD”, where you replace WORD with the word you’ve selected.
+
+**An important note:** In the post from which that paragraph is drawn, McWhorter’s argument is that polysemy in minority languages is often fetishized or exoticized, and this is a legitimate argument. However, the claim that there is no relationship whatsoever between language and thought is a much stronger claim, and McWhorter does not provide evidence for this stronger claim in the blog post. We will address linguistic determinism and linguistic relativity in class. For the purposes of this exercise, McWhorter’s paragraph stands as a good example, but you should not walk away from this exercise thinking that his ultimate point about Mohawk necessarily stands up to scrutiny, or is not controversial.
+
+#### Expansions {-}
+Expansions for this category can take several forms; here are some ideas:
+
+- Using the OED, determine the etymology of theword in question, and try to determine if all instances in the paragraph derive from the same word or if some uses are homophones that have different origins.
+- Imagine that you read the journalist’s paragraph about the Nacirema in a local newspaper. You are appalled at the linguistic sloppiness of the article, and so you decide to write a letter to the editor carefully explaining what is wrong with it.
+- Rewrite the second paragraph with a different interpretation. For example, if the original author interpreted the polysemy of the word BANK to reflect the fundamentally greedy nature of Nacireman society, then perhaps try to write a paragraph that interprets the polysemy of BANK as reflecting a “oneness with nature”, etc.
+
+<!-- ### Student Submissions -->
+
+## Morphosyntactic diversity (essential) {.tabset}
+
+### Overview
+
+**Learning objectives:**
+
+- Learn about the rules that govern a morphosyntactic feature of a variety of English that is not Standardised American English
+- Become familiarised with databases such as the [Yale Grammatical Diversity Project](https://ygdp.yale.edu/)
+- Reinforce distinction between prescriptivism vs.\ descriptivism by exploring non-standardised varieties of English
+
+Every introductory linguistics class introduces the distinction between prescriptive and descriptive statements about language, and often features from non-standardised varieties are introduced to illustrate that stigmatised grammatical features (e.g., double negation) are rule-governed.  This category expands on that introduction, by having students read on morphosyntactic features that they may have heard of, but likely do not understand the rule-governed nature of.
+
+### Category description
+In this wiki category you are asked to write short articles highlighting examples of morphosyntactic diversity amongst varieties of English. There are many excellent resources out there, and one in particular that is worth looking at is the Yale Grammatical Diversity Project.
+
+For an article of this kind, you are asked to provide a brief summary of a grammatical construction from a variety of English other than Standaridised American English, with examples. You do not have to limit yourself to English varieties of North America, and are welcome to look at grammatical constructions in other Englishes, including Singaporean English, Indian English, New Zealand English, etc.
+
+#### Expansions {-}
+Some ideas for expansions of this category are:
+
+- Find additional examples of the grammatical construction in question, either in written texts or in a video.
+- If a construction highlighted is part of your dialect of English, write a reflection about whether you have experienced linguistic prejudice due to your use of the construction.
+- Find a non-English language that exhibits the same construction, and provide a brief summary with glossed examples showing the parallelism.
+
+<!-- ### Student Submissions -->
+
+## Linguistic discrimination in the wild (essential) {.tabset}
+
+### Overview
+
+**Learning objectives:**
+
+- Identify prescriptivist statements in popular media
+- Translate a phenomenon alluded to in a prescriptivist statement in descriptive terms, using appropriate terminology
+
+The goal of this category is raise students' awareness of the prevalence of prescriptivist and discriminatory linguistic statements, while also having them link such statements with the linguistics concepts that we address in class. 
+
+
+### Category description
+Linguistic discrimination can take many forms, but generally refers to discrimination based on how a person uses language; e.g., due to their accent (sometimes called accentism), morphosyntactic features of their dialect, lexical differences, or due to the fact that they use signed rather than spoken language.
+
+**NOTE:** The examples cited in this category may be triggering to those who use the dialects and languages represented. Please be mindful of this when you post. If you are a user of a minoritised language or dialect, then please be aware that the examples on this page may be triggering.
+
+In this wiki category you are asked to find examples of linguistic discrimination “in the wild”: in media, on the internet at large, in a class syllabus (but please, no instructor names), etc. There are two parts to an article of this type:
+
+- Post a link to the example; if derogatory language is included, please make sure to include a click warning.
+- Using appropriate linguistic terminology, what is the example decrying as ungrammatical? For example, if the criticism refers to the pronunciation of “first” as [fɪɹs] instead of [fɪɹst], then the criticism is about the application of the rule of final consonant deletion.
+- Determine which dialect the criticized variant belongs to.
+
+#### Expansions {-}
+Expansions in this category could be additional discussion/commentary, the curation of additional examples, the comparison of the example with forms from other languages, etc. Note that if you post articles in both this category and in Morphosyntactic Diversity, you must make sure that you write about different grammatical constructions.
+
+<!-- ### Student Submissions -->
+
+## Endangered languages {.tabset}
+
+### Overview
+
+**Learning objectives:**
+
+- Learn about an endangered language, as well as the factors that contribute to the language's endangerment and revitalisation efforts
+
+Students in introductory courses are often unaware of not only the sheer number of languages spoken in the world, but also the effects that colonialism, the institutionalisation of certain languages over others, and globalisation have had and continue to have on language endangerment.  This category asks students to research one such language and provide a description of the factors that contribute to that language's endangerment.
+
+### Category description
+According to Ethnologue, 41% of languages spoken today are endangered (nearly 3000 languages). A contribution to this wiki category is an article that discusses a language or dialect that is or has recently been endangered, with a summary of the factors that are contributing to this language’s endangerment (and revitalization, if applicable). What is the EGIDS level of the language (if you can access it via Ethnologue)? You may not choose the same language for this category as you do for the Indigenous languages of the Americas category, and if you choose a language that one of your peers’ selected for that category, you must ensure that your article contains new information that does not replicate their article.
+
+#### Expansions {-}
+There are a variety of ways to expand this category. You may find further literature on the language, thereby expanding upon the discussion of the original article; describe an aspect of its grammar; find audio or video recordings of it, etc.
+
+<!-- ### Student Submissions -->
+
+## Sign languages {.tabset}
+
+### Overview
+
+
+**Learning objectives:**
+
+- Learn about and describe some aspect of sign language:
+ - discrimination, acquisition
+ - linguistics of either phonology, morphology, or syntax of a particular sign language
+
+The introductory course I teach focusses almost exclusively on oral languages.  While I do make sure to refer to sign languages periodically, I have not integrated sign language linguistics into the course in a systematic way.  This bias is one that I hope to address in future iterations of the course, but in the meantime, I offer this category as an opportunity for students to investigate sign languages and redress the imbalance in the course.
+
+
+### Category description
+Sign languages are complete languages. They are not simply gestures or mimicry, and they are not simply signed versions of spoken languages. That is, American Sign Language is not “signed English”: it has a different syntax, including word order, and various other grammatical features that make it a different language. What this means is that a person who uses ASL, but who reads and writes in English, is fluent in two languages. Further, sign languages used in different geographical regions are also different languages, so American Sign Language and, say, Nicaraguan Sign Language are completely different languages, but not because English and Spanish are different.
+
+In this course, lecture content will be focussing almost exclusively on spoken languages, primarily due to a lack of time. However, there is a wealth of information available about sign languages, and in this wiki category, you are asked to contribute articles about sign language. You may post about issues of discrimination as it relates to sign language, about sign language acquisition, or linguistically informed descriptions of the phonology, morphology, syntax, or any other aspect of a sign language such as ASL.
+
+Please note that within the signing community, the use of cochlear implants is controversial for some, due in part to the effect that it has on deaf culture. You are welcome to post about cochlear implants and even to post about the controversy, but I ask that you be sensitive about your language, particularly if you are a hearing person who has not had exposure to sign language.
+
+#### Expansions {-}
+As this is an open-ended wiki category, the expansions are similarly open-ended.
+
+<!-- ### Student Submissions -->
+
+## Varia {.tabset}
+
+### Overview
+
+This category provides students with the opportunity to explore their own interests with respect to language, and educate their peers about such topics.
+
+### Category description
+Come across something about language or linguistics that you find interesting, particularly as it relates to other fields, such as psycholinguistics, neurolinguistics, computational linguistics, etc? Write an article about it here! Please be sure to use the appropriate terminology and concepts as you’ve learned in class.
+
+#### Expansions {-}
+As this is an open-ended wiki category, the expansions are similarly open-ended.
+
+<!-- ### Student Submissions -->
+
+## ELI5: Phonetics/Phonology \& Morphosyntax {.tabset}
+
+### Overview
+
+“ELI5” stands for “Explain it Like I’m 5”, from Reddit, and there are two ELI5 categories of the wiki: one for Phonetics & Phonology and the other for Morphology & Syntax. These categories work a bit differently than the others:   Students were able to get WikiPoints by posing a question about course material non-anonymously, while another student could get points for answer that was sufficiently simple.
+
+### Category description
+“ELI5” stands for “Explain it Like I’m 5”, from Reddit, and there are two ELI5 categories of the wiki: one for Phonetics & Phonology and the other for Morphology & Syntax.  These categories work a bit differently than the others.
+
+#### ELI5 Question: Article request {-}
+If you have a question about course content, then you may create a new article with your question as the title.  That’s it!  By doing so, you will get 5 WP for the “Additional Content” section of the wiki.
+
+#### ELI5 Answer: Article response {-}
+If you see an ELI5 question that you feel you can respond to, then you will write a response, editing the blank article that your peer created.  You will get 10 WP for the “Additional Content” section of the wiki.  The response should be phrased simply, eschewing any difficult terminology.  My kids should be able to grasp the essence of your response, and this will be a crucial component of how we evaluate the ELI5 articles.  If they are not simple enough, then we will ask you to revise it.
+
+If someone has already responded to an article request, but you have a different idea of how to respond, you may do so.  This will also count for 10 WP provided that your explanation is substantially different.
+
+Finally, if you have an idea for an ELI5 explanation, but no one has posted a question, you can create a new article and respond to your own question.  This is still worth 10 WP.
+
+Note that by making a request for an ELI5 article, you are *not* saying that you need an explanation fit for a 5 year old, even though that’s what you’ll get!  Instead, you should think of it this way: you have a question about course material, and you can get 5 WP just by being willing to articulate your question non-anonymously.  You’re also giving one of your fellow students the opportunity to get 10 WP.
+
+The reason for this category is that explaining things simply is a skill in and of itself, and I want to give you the opportunity to work on that skill.
+
+
+<!-- ### Student Submissions -->
+
+
