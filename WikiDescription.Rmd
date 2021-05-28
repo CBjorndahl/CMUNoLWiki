@@ -6,9 +6,9 @@ knit: (function(input_file, encoding) {
  encoding=encoding,
  output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 author: "Christina Bjorndahl"
-date: "2021.01.09"
+date: "2021.05.27"
 output:
-  html_document:
+  bookdown::html_document2:
     toc: yes
     number_sections: yes
     section_depth: 2
@@ -16,8 +16,13 @@ output:
     theme: sandstone
     highlight: tango
 ---
-# Pedagogical challenge
+# How to use this
+This page provides an in-depth description of the wiki as implemented in *80-180 Nature of Language* at Carnegie Mellon University during the Fall 2020 and Spring 2021 semesters.  In Section \@ref(pedagogical-challenge) I articulate the pedagogical goals and challenges that the wiki aims to address.  Section \@ref(overview-and-structure-of-the-wiki), I provide an overview of the structure of the wiki, specifically with respect to the types of contributions (\@ref(wiki-structure)), how student contributions were assessed (\@ref(assessments)), the grading system (\@ref(specifications-grading)), and the prompt that was provided to students regarding the wiki structure (\@ref(prompt-for-students)).  This aspect of the wiki is independent of linguistics, and instructors from other disciplines could implement the general structure of the wiki.
 
+Section \@ref(categories) lists the various categories that students could contribute to; for each category, I provide a brief description and articulation of the learning objectives (4.X.1), and the full description as provided to students (4.X.2).
+
+
+# Pedagogical challenge
 
 The wiki was designed with the following pedagogical goals in mind: First, motivated by the shift to remote teaching due to Covid-19, I wanted to provide students with a means for **asynchronous engagement** and **collaborative learning**.  Second, I wanted to find a way to **incorporate issues related to justice, equity, diversity, and inclusion (JEDI)**, without sacrificing core content.
 
@@ -213,12 +218,12 @@ That said, if you feel that you wish to add something but, for whatever reason, 
 
 ***
 
-# Wiki for an introductory linguistics class
+# Wiki for an introductory linguistics class: Categories {#categories}
 
 This section details the wiki categories that were provided to students in the introductory linguistics class at Carnegie Mellon University, 80-180 *Nature of Language*.  
 
 >**How to read this section:**
-For each category, I provide a brief summary and the learning objectives for that category (2.x.1), followed by the instructions provided to students (2.x.2). 
+For each category, I provide a brief summary and the learning objectives for that category (4.x.1), followed by the instructions provided to students (4.x.2). 
 
 <!-- as well as some anonymised sample student submissions (2.x.3). -->
 
@@ -303,7 +308,7 @@ An expansion of one of these articles can take many forms. Here are a few ideas,
 
 Indigenous languages are often featured in linguistics classes and texts as data, thereby decontextualising them from the people who speak/spoke the language.  This wiki category is an attempt to invert the standard narrative, asking students to *first* learn about the people and the culture associated with a particular place, and only after this learn a linguistic fact about the language in question.
 
-In the description for the category, I also aim to model the process of learning about decolonising linguistics as a discipline, by describing my own growth on the subject, and contextualising the document itself by its author and influences.  In that spirit, feedback received on the document will not only be incorporated, but also shared freely with future students.
+In the description for the category, I also aim to model the process of learning about decolonising linguistics as a discipline, by describing my own growth on the subject, and contextualising the document itself by its author and influences.  In that spirit, feedback that you may have for me will not only be incorporated, but also shared freely with future students.
 
 ### Category description
 Before European colonialism, there were hundreds (if not thousands) of languages in use in the land now known as the Americas; no one knows the exact number. During the colonial period and the subsequent establishment of current nation states such as Canada and the United States, European settlers and governments seized Indigenous land, killed and displaced Indigenous people, and prohibited the use of Indigenous languages. Some of these actions date back to the early years of first contact, but many of the official policies that harm Indigenous people, cultures, and languages have continued until recently, and some continue today. For example, the governments of both the United States and Canada used residential schools as a tool for the eradication of the languages and cultures of Indigenous people. To give you a sense of just how recent this history is, the last residential school in the US closed in the 1970s; in Canada, the last residential school closed in 1996.
@@ -316,9 +321,9 @@ Another problem is that many of the sources are not written by Indigenous people
 
 At this point, I think it’s important to contextualise this document. It was written by me, Dr. Christina Bjorndahl. I claim no Indigenous ancestry, and in fact I have only recently begun to learn about the problems with the representation of Indigenous people in linguistics. Indeed, it was only a couple of semesters ago that I presented information about Indigenous languages by discussing endangerment and extinction, citing non-Indigenous sources, and making only passing reference to revitalisation and reclamation efforts.
 
-So in many ways I’m still new at this. Over the last year, I’ve had the enormous fortune of working with Dr. Wesley Leonard, a linguist of Miami (Myaamia) ancestry. Indeed, everything I’ve written to this point is based on my interpretation of conversations we’ve had, and papers that he and other Indigenous linguists have written. Of course, any failings in the preceding summary are strictly my own. We will be reading some of Dr. Leonard’s work this semester.
+So in many ways I’m still new at this. Over the last couple of years, I’ve had the enormous fortune of working with Dr. Wesley Leonard, a linguist of Miami (Myaamia) ancestry. Indeed, everything I’ve written to this point is based on my interpretation of conversations we’ve had, and papers that he and other Indigenous linguists have written. Of course, any failings in the preceding summary are strictly my own. We will be reading some of Dr. Leonard’s work this semester.
 
-This year I’m using the wiki to try a new way of incorporating Indigenous languages into 80-180 in a way that I hope will be more respectful. There are two parts to this. In part 1 (one of the essential categories), you are asked to find information about an Indigenous language, using Indigenous sources as much as possible; details are below. In part 2, you are asked to discuss some aspect of the same language using the terms and concepts that we have discussed in class.
+This year I’m using the wiki to try a new way of incorporating Indigenous languages into 80-180 in a way that I hope will be more respectful. There are two parts to this. In part 1 (one of the essential categories), you are asked to find information about an Indigenous language, using Indigenous sources as much as possible; details are below. In part 2, you are asked to discuss some aspect of the same language using the terms and concepts that we have discussed in class, and asked to reflect on how Indigenous languages are presented and objectified.
 
 #### Part 1 (essential) {-}
 To do this exercise, you are asked to select a place in North or South America that you have some connection to, broadly construed. For example, the location you choose could be the place you’re from, or a place you visited as a child, but it could also be a place you remember from a movie, or somewhere you’ve always wanted to visit. You will have to select a place that no one else in the class has selected, so you should think of several options!
@@ -392,7 +397,7 @@ In his 1956 paper titled [“Body Ritual Among the Nacirema”](https://www.sfu.
 
 If you google “Nacirema”, you will find various other articles that also play on this idea. Of particular relevance to linguistics is an article by Willard Walker in 1969, called “The Retention of Folk Linguistic Concepts and the ti’yčɨr Caste in Contemporary Nacireman Culture”, which highlights the inconsistencies between the phonological system of English and the way it is taught with respect to its orthography.
 
-While these articles may seem exaggerated, the presentation of other cultures and languages as exotic continues today, particularly with respect to languages. One of the most common tropes in the media is a story that observes that a particular language has “no word for X”, or that “X and Y are represented by the same word”, and from this observation, concludes that the people who use that language have a fundamentally different worldview.
+While these articles may seem exaggerated, the presentation of other cultures and languages as exotic continues today, particularly with respect to languages. One of the most common tropes in the media is a story that observes that a particular language has “no word for X”, or that “X and Y are represented by the same word”, and from this observation, concludes that the people who use that language have a fundamentally different worldview, sometimes even suggesting that this entails an inability to conceive of the world in the same way as speakers of other languages.
 
 In this wiki category you are asked to write two paragraphs about the Nacirema. In the first paragraph, you are to choose a common English word and write a paragraph that illustrates its polysemy. As an example, consider this [paragraph](http://itre.cis.upenn.edu/~myl/languagelog/archives/000128.html), written by John McWhorter, illustrating the polysemy of the word STAND:
 
@@ -409,13 +414,13 @@ Please title your article, “Philosophy lessons from WORD”, where you replace
 #### Expansions {-}
 Expansions for this category can take several forms; here are some ideas:
 
-- Using the OED, determine the etymology of theword in question, and try to determine if all instances in the paragraph derive from the same word or if some uses are homophones that have different origins.
+- Using the OED, determine the etymology of the word in question, and try to determine if all instances in the paragraph derive from the same word or if some uses are homophones that have different origins.
 - Imagine that you read the journalist’s paragraph about the Nacirema in a local newspaper. You are appalled at the linguistic sloppiness of the article, and so you decide to write a letter to the editor carefully explaining what is wrong with it.
 - Rewrite the second paragraph with a different interpretation. For example, if the original author interpreted the polysemy of the word BANK to reflect the fundamentally greedy nature of Nacireman society, then perhaps try to write a paragraph that interprets the polysemy of BANK as reflecting a “oneness with nature”, etc.
 
 <!-- ### Student Submissions -->
 
-## Morphosyntactic diversity (essential) {.tabset}
+## Morphosyntactic diversity of English (essential) {.tabset}
 
 ### Overview
 
@@ -477,7 +482,7 @@ Expansions in this category could be additional discussion/commentary, the curat
 
 - Learn about an endangered language, as well as the factors that contribute to the language's endangerment and revitalisation efforts
 
-Students in introductory courses are often unaware of not only the sheer number of languages spoken in the world, but also the effects that colonialism, the institutionalisation of certain languages over others, and globalisation have had and continue to have on language endangerment.  This category asks students to research one such language and provide a description of the factors that contribute to that language's endangerment.
+Students in introductory courses are often unaware of not only the sheer number of languages spoken in the world, but also the effects that colonialism, the institutionalisation of certain languages over others, and globalisation have had and continue to have on linguistic communities and language endangerment.  This category asks students to research one such language and provide a description of the factors that contribute to that language's endangerment.
 
 ### Category description
 According to Ethnologue, 41% of languages spoken today are endangered (nearly 3000 languages). A contribution to this wiki category is an article that discusses a language or dialect that is or has recently been endangered, with a summary of the factors that are contributing to this language’s endangerment (and revitalization, if applicable). What is the EGIDS level of the language (if you can access it via Ethnologue)? You may not choose the same language for this category as you do for the Indigenous languages of the Americas category, and if you choose a language that one of your peers’ selected for that category, you must ensure that your article contains new information that does not replicate their article.
